@@ -31,11 +31,6 @@ Machine Learning Model will be built after tweaking the dataset as below:
 3. It is shown that REAL news generally have quite longer length than the FAKE news.
 ![word_trend](Images/word_trend.png)
 
-4. FAKE News WordCloud
-![Fake_wordcloud](Images/Fake_wordcloud.png)
-5. Real News WordCloud
-![Real_wordcloud](Images/Real_wordcloud.png)
-
 It is hard to distingusi FAKE vs REAL news from the wordcloud, but we can infer that most of the news were primarily focused on Political Topic.
 
 ## Modeling
@@ -49,8 +44,11 @@ It is hard to distingusi FAKE vs REAL news from the wordcloud, but we can infer 
 
 Out of MultinomialNB Classifier Model and PassiveAggressive Classifier model were the 2 best models:
 ![MultinomialNB_CF](Images/Imb_MNB_CF.png)
+
 MultinomialNB Classifier was built after TFIDF Vectorization using the Stemmed Text.
+
 ![PassiveAgg_CF](Images/Imb_Pac_CF.png)
+
 PassiveAggressive Classifier was built after TFIDF Vectorization using the Lemmatized Text.
 
 ## Conclusion
