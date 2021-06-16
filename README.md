@@ -1,4 +1,4 @@
-![Fakenews](images/Fakenews.jpeg)
+![Fakenews](Images/Fakenews.jpeg)
 
 # Fake News Detction Model
 **Author**: [Ji Hoon Chung](mailto:jhj1650@gmail.com)
@@ -29,12 +29,12 @@ Machine Learning Model will be built after tweaking the dataset as below:
 2. Stemming & Lemmatization Methods were also brought in to change form of the words. Stemming and Lemmatization basically changes the form of words back to most basic root. (Ex. is, am, are, --> be)
 
 3. It is shown that REAL news generally have quite longer length than the FAKE news.
-![word_trend](images/word_trend.png)
+![word_trend](Images/word_trend.png)
 
 4. FAKE News WordCloud
-![Fake_wordcloud](images/Fake_wordcloud.png)
+![Fake_wordcloud](Images/Fake_wordcloud.png)
 5. Real News WordCloud
-![Real_wordcloud](images/Real_wordcloud.png)
+![Real_wordcloud](Images/Real_wordcloud.png)
 
 It is hard to distingusi FAKE vs REAL news from the wordcloud, but we can infer that most of the news were primarily focused on Political Topic.
 
@@ -48,9 +48,9 @@ It is hard to distingusi FAKE vs REAL news from the wordcloud, but we can infer 
 5. PassiveAggressive Classifier Model
 
 Out of MultinomialNB Classifier Model and PassiveAggressive Classifier model were the 2 best models:
-![MultinomialNB_CF](images/Imb_MNB_CF.png)
+![MultinomialNB_CF](Images/Imb_MNB_CF.png)
 MultinomialNB Classifier was built after TFIDF Vectorization using the Stemmed Text.
-![PassiveAgg_CF](images/Imb_Pac_CF.png)
+![PassiveAgg_CF](Images/Imb_Pac_CF.png)
 PassiveAggressive Classifier was built after TFIDF Vectorization using the Lemmatized Text.
 
 ## Conclusion
